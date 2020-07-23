@@ -5,4 +5,5 @@ def foo():
     print(r.status_code)
     threading.Timer(300, foo).start()
 
+print("yea dude, let's rock")
 foo()
