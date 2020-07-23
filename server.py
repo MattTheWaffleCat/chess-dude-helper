@@ -1,7 +1,7 @@
 from os import environ
 from flask import Flask
 
-PORT = process.env.PORT || 3000
+PORT = process.env.PORT or 3000
 
 app = Flask(__name__)
 app.run(environ.get(PORT))
