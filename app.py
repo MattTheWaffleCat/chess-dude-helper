@@ -7,7 +7,7 @@ print("Hello World")
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to our server !!</h1>"
+    return "<h1>eat shit ^_^ !!</h1>"
 
 def foo():
     print("searching...")
