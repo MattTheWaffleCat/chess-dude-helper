@@ -9,8 +9,6 @@ print("Hello World")
 def hello():
     return 'Hello World!'
 
-print("1")
-
 def foo():
     print("searching...")
     #r =requests.get('https://chess-dude-v1.glitch.me/')
@@ -20,12 +18,8 @@ def foo():
 
 import requests, time, threading
 
-print("2")
-
 print("yea dude, let's rock")
 foo()
-
-print("3")
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
