@@ -6,8 +6,8 @@ app = Flask(__name__)
 print("Hello World")
 
 @app.route('/')
-def hello():
-    return 'Hello World!'
+def index():
+    return "<h1>Welcome to our server !!</h1>"
 
 def foo():
     print("searching...")
