@@ -1,5 +1,3 @@
-import requests, time, threading
-
 def foo():
     print("searching...")
     r =requests.get('https://chess-dude-v1.glitch.me/')
