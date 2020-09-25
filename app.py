@@ -11,7 +11,7 @@ def index():
 
 def foo():
     print("searching...")
-    r =requests.get('https://fleja-bot-v2.glitch.me/')
+    r =requests.get('https://fleja-bot-v3.glitch.me/')
     #r =requests.get('https://www.google.com/')
     print(r.status_code)
     threading.Timer(300, foo).start()
