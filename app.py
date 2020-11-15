@@ -10,9 +10,12 @@ def index():
     return "<h1>eat shit ^_^ !!</h1>"
 
 def foo():
-    print("searching...")
+    print("searching for fleja bot...")
     r =requests.get('https://fleja-bot-v3.glitch.me/')
     #r =requests.get('https://www.google.com/')
+    print(r.status_code)
+    print("searching for punisher bot...")
+    r =requests.get('https://brindle-rattle-manager.glitch.me/')
     print(r.status_code)
     threading.Timer(300, foo).start()
 
