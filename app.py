@@ -11,7 +11,7 @@ def index():
 
 def foo():
     print("searching for fleja bot...")
-    r =requests.get('https://kindhearted-bouncy-spur.glitch.me/')
+    r =requests.get('https://rainbow-gusty-icicle.glitch.me/')
     #r =requests.get('https://www.google.com/')
     print(r.status_code)
     print("searching for punisher bot...")
