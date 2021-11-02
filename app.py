@@ -17,6 +17,9 @@ def foo():
     print("searching for punisher bot...")
     r =requests.get('https://brindle-rattle-manager.glitch.me/')
     print(r.status_code)
+    print("searching for destler bot...")
+    r =requests.get('https://sparkly-cooked-beryl.glitch.me/')
+    print(r.status_code)
     threading.Timer(300, foo).start()
 
 import requests, time, threading
