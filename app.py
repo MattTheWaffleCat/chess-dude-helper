@@ -10,8 +10,8 @@ def index():
     return "<h1>eat shit ^_^ !!</h1>"
 
 def foo():
-    print("searching for fleja bot...")
-    r =requests.get('https://rainbow-gusty-icicle.glitch.me/')
+    print("searching for nat bot...")
+    r =requests.get('https://maffie-reference.glitch.me/')
     #r =requests.get('https://www.google.com/')
     print(r.status_code)
     print("searching for punisher bot...")
